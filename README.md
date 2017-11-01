@@ -8,7 +8,7 @@ install.packages("https://cran.r-project.org/src/contrib/Archive/DWD/DWD_0.11.ta
 The `MultiwayClassification` package can then be installed, directly from GitHub, using the devtools library:
 
 ```
-install.packages(devtools)
+install.packages('devtools')
 library(devtools)
 install_github("lockEF/MultiwayClassification")
 ``` 
