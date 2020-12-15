@@ -16,4 +16,5 @@ install_github("lockEF/MultiwayClassification")
 Code for this package was written primarily by Tianmeng Lyu (for multiway DWD and SVM) and Bin Guo (for multiway sparse DWD).     
 
 [1] Lyu, T., Lock, E.F., & Eberly, L. E. (2017). Discriminating sample groups with multi-way data. Biostatistics, 18 (3): 434–450. https://arxiv.org/abs/1606.08046 .
+
 [2] Guo, B., Eberly, L.E., Henry, P.G., Lenglet, C. & Lock, E. F. (2020). Sparse multiway distance weighted discrimination. Preprint.
