@@ -1,7 +1,7 @@
 # MultiwayClassification
 
 This is an R package to perform linear classification for data with multi-way structure.  The distance-weighted discrimination (DWD) or support vector machine (SVM) classification objectives are optimized under the assumption that the multi-way coefficients have low rank [1].  Additional functions perform multiway DWD with sparsity [2]. 
-This package depends on the packages `DWD` (for DWD), `kernlab` (for SVM), and 'sdwd' (for sparse DWD). `DWD` is not currently available on CRAN, and so will need to be installed via its url:
+This package depends on the packages `DWD` (for DWD), `kernlab` (for SVM), and `sdwd` (for sparse DWD). `DWD` is not currently available on CRAN, and so will need to be installed via its url:
 ```
 install.packages("https://cran.r-project.org/src/contrib/Archive/DWD/DWD_0.11.tar.gz",repos = NULL, type = "source")
 ```
