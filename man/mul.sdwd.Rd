@@ -46,6 +46,7 @@ res.msdwd1 <- mul.sdwd(DataArray,y=Class,R=1,lambda1=0,lambda2=1,convThresh = 1e
 ##Compute projection onto the classification direction for each individual:
 scores <- c()
 for(i in 1:length(Class)) scores[i] = sum(as.vector(DataArray[i,,])*res.msdwd1$beta)+res.msdwd1$int
-plot(scores, col=Class)
-
+Colors=rep(1,length(Class))
+Colors[Class==1]=2
+plot(scores, col=Colors)
 }
